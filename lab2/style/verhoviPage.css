@@ -1,0 +1,22 @@
+.p_blue_underline {
+    color: blue;
+    text-decoration: underline;
+}
+
+.p_semibold {
+    font-weight: 550;
+}
+
+.green_last_sentence {
+    color:green;
+}
+
+.img_left {
+    float: left;
+    width: 40%;
+}
+
+.img_right {
+    float: right;
+    width: 40%;
+}
