@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts\static\Raleway-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "Inter";
+}
+
+:root {
+    /*background colours*/
+    --color-dark-blue: #0B3954;
+    --color-light-blue: #BFD7EA;
+    --color-dark-grey: #1C1C1C;
+    /*font colours*/
+    --color-white:#FFF;
+    --color-orange:#EA9010;
+    /*fonts for headers and menubar*/
+    --font-family-h: "Raleway", sans-serif;
+    --font-size-h1: 64px;
+    --font-size-h2: 60px;
+    --font-size-menu: 24px;
+    /*website size*/
+    --width: 1903px;
+    --height: 3952px;
+    /*two main website parts*/
+    --width-left-panel: 1196px;
+    --width-menubar: 707px;
+    /*header section size*/
+    --height-header: 360px;
+    /*biography section size*/
+    --height-biography: 628px;
+    /*disciplines section size*/
+    --height-disciplines: 988px;
+    /*schedule section size*/
+    --height-schedule: 988px;
+    /*additional scientific papers section size*/
+    --height-additional: 904px;
+    /*footer size*/
+    --height-footer: 84px;
+}

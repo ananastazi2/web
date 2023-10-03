@@ -1,0 +1,6 @@
+.container-page {
+    width: var(--width);
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    font-family: var(--font-family-h);
+}

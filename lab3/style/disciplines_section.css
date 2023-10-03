@@ -1,0 +1,27 @@
+.disciplines_section {
+    height: var(--height-disciplines);
+}
+
+#discipline-name {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59px; /* 210.714% */
+    letter-spacing: 0.14px;
+}
+
+#discipline-discription {
+    color: #FFF;
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.1px;
+}
+
+#dots-icon {
+    margin-left: 101px;
+    margin-top: 70px;
+}

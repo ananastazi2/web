@@ -1,0 +1,25 @@
+.footer {
+    height: var(--height-footer);
+    width: var( --width);
+    background-color: var(--color-dark-grey);
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    
+    z-index: 4;
+    bottom: calc(-300vh - 17px);
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59px; /* 210.714% */
+    letter-spacing: 0.14px;
+}

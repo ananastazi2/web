@@ -1,0 +1,84 @@
+.menu {
+    position: sticky;
+    float: right;
+    top: 0;
+    z-index: 1;
+
+    width: var(--width-menubar);
+    height: calc(var(--height) - var(--height-footer));
+    height: 100vh;
+    
+    background-color: var(--color-light-blue);
+}
+
+#person-photo {
+    width: auto;
+    height: 785px;
+    flex-shrink: 0;
+    z-index: 2;
+
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.nav-bar {
+    position: relative;
+    bottom: calc(100vh - var(--height-footer));
+    display: flex;
+    flex-direction: column;
+    margin-top: 486px;
+    z-index: 3;
+
+    align-items: flex-end;
+    text-justify: center;
+    text-align: center;
+
+    gap: 50px;
+}
+
+.nav-bar a {
+    background: rgba(234, 144, 16, 0.91);
+    height: 61px;
+    
+    vertical-align: middle;
+    align-content: center;
+    line-height: 61px;
+
+    color: #0B3954;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.12px;
+}
+
+.nav-bar a:hover {
+    background: rgba(234, 144, 16, 0.7);
+    color: #0B3954;
+    text-decoration: none;
+}
+
+.nav-item-bio {
+    width: 245px;
+}
+
+.nav-item-di {
+    width: 355px;
+}
+
+.nav-item-sch {
+    width: 465px;
+}
+
+.nav-item-add-sci {
+    width: 575px;
+}
+
+.nav-bar .selected {
+    background: rgba(255, 255, 255, 0.91);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar .selected:hover {
+    background: rgba(255, 255, 255, 0.91);
+}

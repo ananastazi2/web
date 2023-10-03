@@ -1,0 +1,20 @@
+.add_sec_sci_papers {
+    height: var(--height-additional);
+    width: var(--width-left-panel);
+}
+
+.add_sec_sci_papers p {
+    width: 1039px;
+    height: 115px;
+    flex-shrink: 0;
+
+    margin-left: 101px;
+    margin-top: 24px;
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59px; /* 210.714% */
+    letter-spacing: 0.14px;
+    text-decoration-line: underline;
+}

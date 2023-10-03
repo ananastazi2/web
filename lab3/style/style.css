@@ -1,0 +1,35 @@
+@import url(base.css);
+@import url(container.css);
+@import url(header.css);
+@import url(nav-menu.css);
+@import url(biography_section.css);
+@import url(disciplines_section.css);
+@import url(schedule_section.css);
+@import url(add_sec_sci_papers.css);
+@import url(footer.css);
+
+body {
+    margin: 0;
+    max-width: var(--width);
+}
+
+.content {
+    width: var(--width-left-panel);
+}
+
+.sections-header {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 98px; /* 163.333% */
+    letter-spacing: 0.3px;
+}

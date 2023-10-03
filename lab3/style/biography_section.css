@@ -1,0 +1,21 @@
+.biography-section {
+    height: var(--height-biography);
+}
+
+.bio-description {
+    margin-left: 101px;
+    margin-right: 110px;
+    margin-top: 18px;
+    margin-bottom: 70px;
+    width: 986px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    text-align: justify;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59px; /* 268.182% */
+    letter-spacing: 0.15px;
+}

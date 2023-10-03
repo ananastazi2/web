@@ -1,0 +1,43 @@
+.schedule_section {
+    height: var(--height-schedule);
+}
+
+#schedule {
+    margin-left: 104px;
+    margin-top: 10px;
+    display: flex;
+    width: 1011px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-collapse: collapse;
+    border-radius: 4px;
+    border: 1px solid #5B5B5B;
+    background: #363636;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+}
+
+#schedule th {
+    font-weight: 600;
+    text-align: center;
+    line-height: 130%; /* 15.6px */
+    flex: 1 0 0;
+    background: #404040;
+}
+
+#schedule #time {
+    text-align: center;
+    font-weight: 400;
+}
+
+#schedule th, td {
+    border: 1px solid #5B5B5B;
+}
+
+#dividing-row {
+    background: #404040;
+}

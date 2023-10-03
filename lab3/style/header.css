@@ -1,0 +1,20 @@
+.header {
+    height: var(--height-header);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 65px; 
+}
+
+.words-highlighted {
+    color: #EA9010;
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's card site</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-page">
+        <div class="menu">
+            <img src="./imgs/rayan.png" id="person-photo">
+            <nav class="nav-bar">
+                <a href="#biography-section" class="nav-item-bio" id="nav-item-bio">БІОГРАФІЯ</a>             
+                <a href="#disciplines-section" class="nav-item-di">ДИСЦИПЛІНИ</a>
+                <a href="#schedule-section" class="nav-item-sch">РОЗКЛАД ЗАНЯТЬ</a>
+                <a href="#add-sec-sci-papers-section" class="nav-item-add-sci">СПИСОК НАУКОВИХ ПУБЛІКАЦІЙ</a>
+            </nav>
+        </div>
+
+        <div class="header" id="biography-section">
+            Привіт, я Роман Георгійович,
+            <span>
+                <span class="words-highlighted">експерт&#160</span> у ШІ і <span class="words-highlighted">&#160викладач.</span>
+            </span>
+        </div>
+
+        <div class="content">
+            <section class="biography-section" id="biography-section">
+                <span class="sections-header">Трохи про мене</span>
+                <div class="bio-description"> 
+                    Я здобув бакалавр, магістерську та докторську ступені в  області комп’ютерних наук в Українському католицькому університеті. Моя докторська дисертація була присвячена розвитку алгоритмів машинного навчання для аналізу медичних зображень. 
+                    <br>Зараз я викладаю студентам різні аспекти інтелектуальних систем, робототехніки та обробки природної мови.
+                    <br>Поза викладанням, я є активним учасником міжнародних конференцій та проектів, спрямованих на впровадження інноваційних рішень у галузі штучного інтелекту в медицині.
+                </div>
+            </section>
+            <section class="disciplines_section" id="disciplines-section">
+                <span class="sections-header">Мої дисципліни</span>
+                <div class="container px-4">
+                    <div class="row mt-4">
+                        <div class="col" id="discipline-name">
+                            Основи штучного інтелекту
+                        </div>
+                        <div class="col" id="discipline-name">
+                            Інтелектуальні системи обробки даних
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5" id="discipline-discription">
+                            Ця дисципліна надає студентам загальний огляд основних концепцій і методів в галузі штучного інтелекту. Студенти вивчають основні поняття, такі як машинне навчання, логічне програмування та експертні системи.
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col" id="discipline-discription">
+                            Ця дисципліна зосереджена на розробці інтелектуальних систем для обробки та аналізу великих обсягів даних. Студенти вивчають алгоритми для виявлення шаблонів в даних, створення систем прогнозування та прийняття рішень на основі даних.
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col" id="discipline-name">
+                            Обробка природної мови
+                        </div>
+                        <div class="col" id="discipline-name">
+                            Машинне навчання і глибоке навчання
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5" id="discipline-discription">
+                            У цій дисципліні студенти вивчають методи обробки та аналізу текстових даних, спрямовані на розуміння та генерацію природної мови. Вони досліджують техніки для виявлення  інформаційних зв'язків у текстах та створення текстових агентів.
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col" id="discipline-discription">
+                            Ця дисципліна фокусується на алгоритмах та методах машинного навчання, включаючи глибоке навчання. Студенти вивчають різні моделі машинного навчання, а також принципи створення та навчання нейронних мереж. Вони здобувають практичні навички у використанні бібліотек та інструментів для розробки інтелектуальних систем.
+                        </div>
+                    </div>
+                </div>
+                <img src="D:\Енестейшен\Навчання\Універ\3point\1sem\Веб\lab3\icons\miniFooter.png" id="dots-icon">
+            </section>
+            <section class="schedule_section" id="schedule-section">
+                <span class="sections-header">Розклад занять</span>
+                <table width="1008px" cellpadding="7" id="schedule">
+                    <tr>
+                        <th width="168px">КН-21</th>
+                        <th width="168px">Понеділок</th>
+                        <th width="168px">Вівторок</th>
+                        <th width="168px">Середа</th>
+                        <th width="168px">Четвер</th>
+                        <th width="168px">П'ятниця</th>
+                    </tr>
+                    <tr>
+                        <td id="time">9.00-10.20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">10.30-11.50</td>
+                        <td>Основи ШІ (л)</td>
+                        <td></td>
+                        <td>Основи ШІ (лр)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">13.40-15.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr id="dividing-row">
+                        <th>КН-22</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">9.00-10.20</td>
+                        <td></td>
+                        <td>Основи ШІ (л)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">10.30-11.50</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Основи ШІ (лр)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">13.40-15.00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>КН-31</th>
+                        <th>Понеділок</th>
+                        <th>Вівторок</th>
+                        <th>Середа</th>
+                        <th>Четвер</th>
+                        <th>П'ятниця</th>
+                    </tr>
+                    <tr>
+                        <td id="time">9.00-10.20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Інтелектуальні системи обробки даних (лр)</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">10.30-11.50</td>
+                        <td></td>
+                        <td>Обробка природної мови (л)</td>
+                        <td></td>
+                        <td></td>
+                        <td>Машинне і глибоке начання (лр)</td>
+                    </tr>
+                    <tr>
+                        <td id="time">13.40-15.00</td>
+                        <td>Інтелектуальні системи обробки даних (л)</td>
+                        <td></td>
+                        <td>Машинне і глибоке начання (л)</td>
+                        <td></td>
+                        <td>Обробка природної мови (лр)</td>
+                    </tr>
+                    <tr id="dividing-row">
+                        <th>КН-32</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">9.00-10.20</td>
+                        <td>Інтелектуальні системи обробки даних (л)</td>
+                        <td>Інтелектуальні системи обробки даних (лр)</td>
+                        <td>Обробка природної мови (л)</td>
+                        <td></td>
+                        <td>Обробка природної мови (лр)</td>
+                    </tr>
+                    <tr>
+                        <td id="time">10.30-11.50</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="time">13.40-15.00</td>
+                        <td></td>
+                        <td>Машинне і глибоке начання (л)</td>
+                        <td></td>
+                        <td>Машинне і глибоке начання (лр)</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <img src="D:\Енестейшен\Навчання\Універ\3point\1sem\Веб\lab3\icons\miniFooter.png" id="dots-icon">
+            </section>
+        </div>
+
+        <section class="add_sec_sci_papers" id="add-sec-sci-papers-section">
+            <span class="sections-header">Наукові публікації</span>
+            <p>
+                "Автоматичне визначення об'єктів на зображеннях за допомогою глибокого навчання" (2022)
+            </p>
+            <p>
+                "Використання природної мови для покращення інтерфейсів користувача" (2021)
+            </p>
+            <p>
+                "Розробка інтелектуальної системи для діагностики захворювань на основі аналізу медичних зображень" (2020)
+            </p>
+            <p>
+                Оптимізація алгоритмів рекомендацій на основі особистих інтересів користувачів" (2019)
+            </p>
+            <p>
+                "Вплив алгоритмів машинного навчання на розпізнавання емоцій у текстах" (2018)
+            </p>
+        </section>
+        <div class="footer">
+            ©2023 - Anastasia Promotska
+        </div>
+    </div>
+</body>
+
+<script>
+    var isInViewport = function(elem) {
+        var distance = elem.getBoundingClientRect();
+        return (
+            distance.top >= 0 &&
+            distance.top <= (window.innerHeight)
+        );
+    };
+
+    var findMe = document.querySelectorAll('.nav-bar a');
+
+    window.document.onload = updateNav(event);
+    window.addEventListener('scroll', updateNav, false);
+    function updateNav(event) {
+        const elements = [document.getElementById("biography-section"), document.getElementById("disciplines-section"), document.getElementById("schedule-section"), document.getElementById("add-sec-sci-papers-section")];    
+        const items = [document.getElementsByClassName("nav-item-bio")[0], document.getElementsByClassName("nav-item-di")[0], document.getElementsByClassName("nav-item-sch")[0], document.getElementsByClassName("nav-item-add-sci")[0]];
+        elements.forEach((element, i) => { 
+            if (isInViewport(element)) {
+                items.forEach(item => {
+                    item.classList.remove("selected");
+                });
+                items[i].classList.add("selected");
+            }
+        });
+    }
+</script>
+</html>
