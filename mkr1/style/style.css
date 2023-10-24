@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@400;500;600&family=Roboto+Slab:wght@300;400;500&display=swap');
+
+@import url('header.css');
+@import url('footer.css');
+@import url('container_sidebar.css');
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("Roboto_Slab/static/RobotoSlab-Regular.ttf");
+
+    font-family: 'Raleway';
+}
+
+:root {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 320px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 89%;
+}
+
+.header, .footer, .container__sidebar, .container__main-content {
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #121212;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container__sidebar {
+    flex: 1;
+    max-width: 15%;
+    background-color: #012e49;
+    color: #fff;
+}
+
+.container__main-content {
+    flex: 2;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__main-content__content-block {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.container__main-content__content-block img {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container__sidebar {
+        flex: 1;
+        max-height: 8%;
+        max-width: 100%;
+    }
+
+    .container__main-content {
+        flex: 2;
+    }
+}

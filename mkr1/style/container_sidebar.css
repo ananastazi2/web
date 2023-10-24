@@ -1,0 +1,50 @@
+.container__sidebar__menu {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container__sidebar__menu a {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    color: white;
+}
+
+.container__sidebar__menu a:hover {
+    transition: 0.4s;
+    background-color: #033a5d;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container__sidebar__menu {
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        gap: 8px;
+
+        font-size: 18px;
+    }
+
+    .container__sidebar__menu a {
+        width: auto;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container__sidebar__menu {
+        justify-content: space-around;
+        gap: 8px;
+        font-size: 16px;
+    }
+}
