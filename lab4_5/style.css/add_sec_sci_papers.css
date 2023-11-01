@@ -1,0 +1,59 @@
+.add_sec_sci_papers {
+    margin-bottom: 15%;
+    padding-top: 5%;
+}
+
+.add_sec_sci_papers p {
+    display: grid;
+    grid-template-columns: calc(100% - 80px) 21px;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+
+    width: 85%;
+
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 24px;
+    padding-left: 2%;;
+
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210.714%;
+    letter-spacing: 0.14px;
+    text-decoration-line: underline;
+
+    background-color: rgba(4, 42, 64, 0.50);
+    border-left: 7px solid rgba(214, 136, 22, 0.90);;
+}
+
+.add_sec_sci_papers a {
+    text-decoration: none;
+    color: white;
+}
+
+.add_sec_sci_papers a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 1074px) {
+    .add_sec_sci_papers p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 937px) {
+    .add_sec_sci_papers p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 767px) {
+    .add_sec_sci_papers p {
+        font-size: 17px;
+    }
+}

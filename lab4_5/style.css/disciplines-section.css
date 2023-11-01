@@ -1,0 +1,67 @@
+.disciplines-container {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.disciplines_section {
+    margin-bottom: 15%;
+    padding-top: 5%;
+}
+
+#discipline-name {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 210.714%;
+    letter-spacing: 0.14px;
+}
+
+#discipline-discription {
+    color: #FFF;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    letter-spacing: 0.1px;
+
+    background-color: rgba(4, 42, 64, 0.50);;
+}
+
+@media (max-width: 1074px) {
+    #discipline-name {
+        font-size: 20px;
+    }
+
+    #discipline-discription {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .disciplines-container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 937px) {
+    #discipline-name {
+        font-size: 18px;
+    }
+
+    #discipline-discription {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    #discipline-name {
+        font-size: 18px;
+    }
+
+    #discipline-discription {
+        font-size: 13px;
+    }
+}

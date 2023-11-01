@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@400;500;600&display=swap');
+
+@import url(header.css);
+@import url(menu.css);
+@import url(biography-section.css);
+@import url(disciplines-section.css);
+@import url(schedule-section.css);
+@import url(add_sec_sci_papers.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts\static\Raleway-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "Inter";
+}
+
+.body {
+    margin: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menu {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    width: 37%;
+    height: 100vh;
+    
+    background:  url("../imgs/bg.png"), #BFD7EA;
+}
+
+.page-content {
+    width: 63%;
+
+    background-color: #0B3954;
+
+    font-family: "Raleway";
+}
+
+.sections-header {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFF;
+    text-shadow: 4px 0px 2px rgba(234, 144, 16, 0.30);
+    font-family: Raleway;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.3px;
+}
+
+@media (min-width: 1441px) {
+    .header {
+        font-size: 52px;
+    }
+    
+    .sections-header {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1202px) {
+    .header {
+        font-size: 40px;
+        line-height: 120%;
+        margin-bottom: 10%;
+    }
+
+    .sections-header {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1074px) {
+    .header {
+        font-size: 36px;
+    }
+
+    .sections-header {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 937px) {
+    .header {
+        font-size: 28px;
+    }
+
+    .sections-header {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-container {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100vw;
+        height: 13vh;
+    }
+
+    .page-content {
+        width: 100vw;
+    }
+
+    .header {
+        margin-top: 5%;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 609px) {
+    .header {
+        font-size: 26px;
+    }
+
+    .sections-header {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .angled-boarders {
+        --s: 25px; 
+        --t: 4px;  
+    }
+
+    .sections-header {
+        font-size: 20px;
+    }
+}

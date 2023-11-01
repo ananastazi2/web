@@ -1,0 +1,58 @@
+.schedule_section {
+    margin-bottom: 15%;
+    padding-top: 5%;
+}
+
+.table-responsive .table td,
+.table-responsive .table th {
+    background-color: #363636;
+    color: #FFF;
+}
+
+.table-responsive .table th, .table-responsive .table  #dividing-row td {
+    background-color: #404040;
+}
+
+#schedule {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-collapse: collapse;
+    border-radius: 4px;
+    border: 1px solid #5B5B5B;
+    background: #363636;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+}
+
+#schedule th {
+    font-weight: 600;
+    text-align: center;
+    line-height: 130%;
+    flex: 1 0 0;
+    background: #404040;
+}
+
+#time {
+    text-align: center;
+    font-weight: 400;
+}
+
+#schedule th, td {
+    border: 1px solid #5B5B5B;
+}
+
+#dividing-row {
+    background: #404040;
+}
+
+.column-headers {
+    width: 16.67%;
+}

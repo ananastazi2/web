@@ -1,0 +1,157 @@
+#person-photo {
+    width: 93%;
+    height: auto;
+    flex-shrink: 0;
+    z-index: 2;
+
+    position: absolute;
+    bottom: 7.4vh;
+    right: 0;
+}
+
+.nav-bar-aside {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+
+    width: 90%;
+
+    align-items: flex-end;
+    text-align: center;
+
+    gap: 50px;
+}
+
+.nav-bar-aside a {
+    background: rgba(234, 144, 16, 0.91);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    vertical-align: middle;
+    align-content: center;
+    line-height: 305%;
+
+    color: #0B3954;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1%;
+    text-decoration: none;
+}
+
+.nav-bar-aside a:hover {
+    background: rgba(234, 144, 16, 0.7);
+    color: #0B3954;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav-bar-aside-bio {
+    width: 45%;
+}
+
+.nav-bar-aside-di {
+    width: 60%;
+}
+
+.nav-bar-aside-sch {
+    width: 75%;
+}
+
+.nav-bar-aside-add-sci {
+    width: 90%;
+}
+
+.nav-bar-aside .selected {
+    background: rgba(255, 255, 255, 0.91);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar-aside .selected:hover {
+    background: rgba(255, 255, 255, 0.91);
+}
+
+.nav-bar-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+    gap: 5%;
+    line-height: 200%;
+    letter-spacing: 1%;
+}
+
+.nav-bar-header a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+
+@media (min-width: 1441px) {
+    #person-photo {
+        width: auto;
+        bottom: 9vh;
+    }
+}
+
+@media (max-width: 1202px) {
+    #person-photo {
+        bottom: 10vh;
+    }
+
+    .nav-bar-aside a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1074px) {
+    #person-photo {
+        bottom: 12.7vh;
+    }
+
+    .nav-bar-aside a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 937px) {
+    #person-photo {
+        bottom: 19.8vh;
+    }
+
+    .nav-bar-aside {
+        gap: 40px;
+    }
+
+    .nav-bar-aside a {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-bar-header {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #person-photo {
+        display: none;
+    }
+
+    .nav-bar-aside {
+        display: none;
+    }
+}
+
+@media (max-width: 713px) {
+    .nav-bar-header a {
+        font-size: 16px;
+    }
+}
