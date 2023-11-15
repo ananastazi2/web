@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Головна сторінка</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Проектування та розробка веб-застосунків</h1>
+            <h2>Лабораторні роботи №2. JavaScript</h2>
+            <h2>Виконала Промоцька А.А., студентка групи КН-31</h2> 
+            <h2>8 варіант</h2>
+        </header>
+
+        <main>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Лабораторна робота №1</a></li>
+                    <li><a href="lab2.html">Лабораторна робота №2</a></li>
+                    <li><a href="lab3.html">Лабораторна робота №3</a></li>
+                    <li><a href="lab4.html">Лабораторна робота №4</a></li>
+                </ul>
+            </nav>
+
+            <section class="task-description">
+                <h2>Завдання</h2>
+                <p>
+                    На Вашій сторінці є кнопка. При наведенні на неї вивести текст. 
+                    <br>Ввести групу (з клавіатури), прізвище студента та курс (поля вводу). Якщо неправильно вказано курс (перша цифра номеру групи), вивести попередження, інакше вивести повне ім’я студента.
+                </p>
+            </section>
+
+            <section class="task-solving-lab2">
+                <h2>Результат:</h2>
+
+                <form>
+                <div class="input-container">
+                    <input type="string" id="fullname" required=""/>
+                    <label>
+                         ПІБ
+                    </label>
+                </div>
+
+                <div class="input-container">
+                    <input type="string" id="year-of-study" required=""/>
+                    <label>
+                        Курс
+                    </label>
+                </div>
+
+                <div class="input-container">
+                    <input type="string" id="group" required="" />
+                    <label>
+                        Група
+                    </label>
+                </div>
+
+                <input type="submit" id="submit" value="Good?" title="Oh, click faster"/>
+            </form>
+            </section>
+        </main>
+
+        <script src="task2.js"></script>
+    </body>
+    
+</html>

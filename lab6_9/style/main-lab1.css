@@ -1,0 +1,89 @@
+.task-description {
+    background-color: rgb(216, 216, 216);
+    padding: 2%;
+}
+
+.task-description p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.task-description ul {
+    font-size: 20px;
+}
+
+.task-solving {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    padding: 2%;
+}
+
+.exam-check {
+    padding: 1% 1% 1% 1%;
+    margin: 3%;
+
+    background-color: rgba(77, 186, 245, 0.873);
+    width: 30%;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 500;
+
+    transition: all 0.3s ease-out;
+}
+
+.exam-check:hover {
+    background-color: rgba(130, 208, 250, 0.873);
+}
+
+#result p {
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+    .task-description p, .task-description ul {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .task-description p, .task-description ul {
+        font-size: 16px;
+    }
+
+    #result p {
+        font-size: 16px;
+    }
+
+    .exam-check {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 680px) {
+    .task-description p, .task-description ul {
+        font-size: 14px;
+    }
+
+    #result p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    .task-description p, .task-description ul {
+        font-size: 12px;
+    }
+
+    #result p {
+        font-size: 12px;
+    }
+
+    .exam-check {
+        font-size: 12px;
+    }
+}

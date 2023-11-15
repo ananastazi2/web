@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    background-color: rgba(12, 104, 153, 0.873);
+    color: white;
+
+    line-height: 30%;
+}

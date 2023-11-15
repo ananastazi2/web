@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Головна сторінка</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Проектування та розробка веб-застосунків</h1>
+            <h2>Лабораторні роботи №1. JavaScript</h2>
+            <h2>Виконала Промоцька А.А., студентка групи КН-31</h2> 
+            <h2>8 варіант</h2>
+        </header>
+
+        <main>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Лабораторна робота №1</a></li>
+                    <li><a href="lab2.html">Лабораторна робота №2</a></li>
+                    <li><a href="lab3.html">Лабораторна робота №3</a></li>
+                    <li><a href="lab4.html">Лабораторна робота №4</a></li>
+                </ul>
+            </nav>
+
+            <section class="task-description">
+                <h2>Завдання</h2>
+                <p>
+                    Створити масиви значень:
+                </p>
+                <ul>
+                    <li>назва предмету;</li>
+                    <li>дата іспиту;</li>
+                    <li>аудиторія (допускається пусте значення).</li>
+                </ul>
+                <p>
+                    За день до іспиту проводиться консультація. Вивести повідомлення про те,
+                    що сьогодні повинна бути консультація чи іспит. Якщо не вказана аудиторія,
+                    вивести додаткове повідомлення „Невідоме місце проведення
+                    консультації/іспиту”.
+                </p>
+            </section>
+
+            <section class="task-solving">
+                <div id="result">
+                    <h2>Результат:</h2>
+                </div>
+
+                <button class="exam-check" onclick="checkExams()">
+                    Дізнатися про наявність екзамену або консультації
+                </button>
+            </section>
+        </main>
+
+        <script src="task1.js"></script>
+    </body>
+    
+</html>

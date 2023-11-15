@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Головна сторінка</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Проектування та розробка веб-застосунків</h1>
+            <h2>Лабораторні роботи №3. JavaScript</h2>
+            <h2>Виконала Промоцька А.А., студентка групи КН-31</h2> 
+            <h2>8 варіант</h2>
+        </header>
+
+        <main>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Лабораторна робота №1</a></li>
+                    <li><a href="lab2.html">Лабораторна робота №2</a></li>
+                    <li><a href="lab3.html">Лабораторна робота №3</a></li>
+                    <li><a href="lab4.html">Лабораторна робота №4</a></li>
+                </ul>
+            </nav>
+
+            <section class="task-description">
+                <h2>Завдання 1</h2>
+                <p>
+                    Дано блок з кнопкою 'закрити блок'. При натисканні на цю кнопку блок повинен зникнути з форми. Кнопка розміщується всередині блоку і повинна зникнути разом з ним. Блоків може бути будь-яка кількість, допускається щоб один з блоків був всередині іншого. Кожен блок закриває своя кнопка.
+                </p>
+
+                <h2>Завдання 2</h2>
+                <p>
+                    Дана таблиця з числами. При натисканні на комірку, вона активується і стає червоного кольору. Активувати можна багато комірок. Під таблицею кнопка. При натисканні цієї кнопки в абзац нижче виведіть суму активованих комірок. Реалізуйте також кнопку "скинути активовані комірки".
+                </p>
+            </section>
+
+            <section class="task-solving-lab2">
+                <h2>Результат:</h2>
+
+                <h2>Завдання 1</h2>
+                
+                <div class="block-container">
+                </div>
+
+                <h2>Завдання 2</h2>
+                <table id="myTable">
+                    <tr>
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>5</td>
+                      <td>6</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                    </tr>
+                  </table>
+                  
+                  <button onclick="countActiveCells()">Count Active Cells</button>
+                  <button onclick="resetCells()">Reset Cells</button>
+                  
+                  <p id="result"></p>
+            </section>
+        </main>
+
+        <script src="task3.1.js"></script>
+        <script src="task3.2.js"></script>
+    </body>
+    
+</html>
