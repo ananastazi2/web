@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>ЛР №4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Проектування та розробка веб-застосунків</h1>
+            <h2>Лабораторні роботи №4. JavaScript</h2>
+            <h2>Виконала Промоцька А.А., студентка групи КН-31</h2> 
+            <h2>8 варіант</h2>
+        </header>
+
+        <main>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Лабораторна робота №1</a></li>
+                    <li><a href="lab2.html">Лабораторна робота №2</a></li>
+                    <li><a href="lab3.html">Лабораторна робота №3</a></li>
+                    <li><a href="lab4.html">Лабораторна робота №4</a></li>
+                </ul>
+            </nav>
+
+            <section class="task-description">
+                <h2>Завдання 1</h2>
+                <p>
+                    Розробити сторінку зі скриптом, в якому створюється об'єкт Квартира з 4-ма властивостями: адреса, кількість кімнат, ціна, ремонт. Створити масив з декількома об‘єктами даного класу. Вивести після натискання кнопки всі значення властивостей на екран у вигляді таблиці.
+                </p>
+            </section>
+
+            <section class="task-solving-lab4">
+                <h2>Результат:</h2>
+
+                <button class="generateList" id="button" onclick="generateApartments()">
+                    Згенерувати список
+                </button>
+
+                <tabble id="result-table"></tabble>
+            </section>
+        </main>
+
+        <script src="task4.js"></script>
+    </body>
+    
+</html>

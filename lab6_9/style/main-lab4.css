@@ -1,0 +1,26 @@
+.task-solving-lab4 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    padding: 2%;
+}
+
+.generateList {
+    padding: 1% 1% 1% 1%;
+    margin: 3%;
+
+    background-color: rgba(77, 186, 245, 0.873);
+    width: 30%;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 500;
+
+    transition: all 0.3s ease-out;
+}
+
+.generateList:hover {
+    background-color: rgba(130, 208, 250, 0.873);
+}
