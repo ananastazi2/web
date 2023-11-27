@@ -1,0 +1,49 @@
+.App-container header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  padding-top: 4%;
+  padding-bottom: 4%;
+
+  background-color: rgba(12, 104, 153, 0.873);
+  color: white;
+
+  line-height: 30%;
+}
+
+.App-container main {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+}
+
+.task-description p {
+  font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+  .task-description p {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .task-description p {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  .task-description p {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .task-description p {
+      font-size: 12px;
+  }
+}

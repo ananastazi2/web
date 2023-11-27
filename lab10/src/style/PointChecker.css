@@ -1,0 +1,67 @@
+.task-solving fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .input-container {
+      position: relative;
+      margin-bottom: 25px;
+    margin-top: 2%;
+  
+    width: 30vw;
+  }
+  
+  .input-container label {
+      position:absolute;
+      top:0px;
+      left:0px;
+      font-size:16px;
+      color:#555;	
+      pointer-events: none;
+      transition: all 0.15s ease-in-out;
+  }
+  
+  .input-container input { 
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width: 50%;
+    padding: 8px 0 5px 0;
+    font-size:16px;
+    color:black;
+  }
+  
+  .input-container input:focus { 
+      border:none;	
+      outline:none;
+      border-bottom:2px solid rgb(0, 58, 79);	
+  }
+  
+  .input-container input:focus ~ label,
+  .input-container input:valid ~ label {
+      top: -12px;
+      font-size: 12px;
+  }
+  
+  .calculate {
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    position: relative;
+  
+    background-color: rgba(77, 186, 245, 0.873);
+    width: 30%;
+  
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 500;
+  
+    transition: all 0.3s ease-out;
+  }
+  
+  .calculate:hover {
+    cursor: pointer;
+    background-color: rgba(115, 201, 248, 0.873);
+  }

@@ -1,0 +1,47 @@
+.App-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
