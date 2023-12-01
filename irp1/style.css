@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope';
+
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    background-color: rgba(12, 104, 153, 0.873);
+    color: white;
+
+    line-height: 30%;
+}
+
+.task-description {
+    background-color: rgb(216, 216, 216);
+    padding: 2%;
+}
+
+.task-description p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.task-solving {
+    padding: 2%;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .task-description p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .task-description p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .task-description p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    h1 {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    .task-description p {
+        font-size: 12px;
+    }
+}
